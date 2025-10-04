@@ -1,0 +1,10 @@
+c) Errores cometidos y cómo evitarlos
+
+1. Duplicación de atributos (nombre, ci) en subclases
+   Cómo evitarlo: Mantener los atributos solo en la clase base y no repetirlos en las subclases.
+
+2. Método mal definido en UML
+   Cómo evitarlo: Usar nombres claros y descriptivos para los métodos, por ejemplo: mostrarInfo().
+
+3. Falta de encapsulación
+   Cómo evitarlo: Usar super.mostrarInfo() en las subclases para reutilizar código y no repetir la lógica.
